@@ -8,7 +8,7 @@ from flask import Flask, request, jsonify, render_template
 app = Flask(__name__)
 
 # ── Load your model ──────────────────────────────────────────────────────────
-MODEL_PATH = "lgbm_ranker_optimized.pkl"
+MODEL_PATH = "lgbm_ranker_optimized_copy.pkl"
 
 model = None
 if os.path.exists(MODEL_PATH):
